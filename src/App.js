@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     alanBtn({
       key:
-        "1812941448d49dc32381184e99370f322e956eca572e1d8b807a3e2338fdd0dc/prod",
+        "YOUR__KEY",
       onCommand: ({ command, product }) => {
         if (command === "show") {
           filter(product);
